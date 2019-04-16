@@ -1,0 +1,228 @@
+/*Mostly buff */
+body, input, button{
+    font-family: 'Roboto', sans-serif;
+}
+/*body style */
+body{
+    background-color: #edf0f1;
+    padding: 80px 0 0 0;
+}
+/* header style */
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    padding: 15px;
+    top:0;
+    left:0px;
+    z-index: 5;
+    background-color: #25b99a;
+    box-shadow:0px 2px 4px rgba(44, 62, 800, 0.15);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/*input style */
+header input{
+    width:75%;
+    height:50%;
+    float: left;
+    font-size: 18px;
+    text-indent: 18px;
+    font-weight: 400;
+    padding: 0 60px 0 0;
+    color:#fff;
+    background:rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 25px;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:0px;
+    box-shadow: none;
+    outline: none;
+
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+}
+/*input bar effects */
+header input::-webkit-input-placeholder{
+    color:rgba(255, 255, 255, 0.75);
+}
+header input::-moz-input-placeholder{
+    color:rgba(255, 255, 255, 0.75);
+}
+header input::-ms-input-placeholder{
+    color:rgba(255, 255, 255, 0.75);
+}
+header input::-o-input-placeholder{
+    color:rgba(255, 255, 255, 0.75);
+}
+/*button style */
+header button{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:9px;
+    right:35px;
+    z-index: 2;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+
+}
+/* Its a button. */
+header button svg{
+    width:24px;
+    height:24px;
+
+}
+/*header button effects */
+header button svg:hover{
+    width:24px;
+    height:24px;
+    transition: 0.2s ease;
+    opacity: 0.70;
+
+    -webkit-transition: 0.2s ease;
+    -moz-transition:    0.2s ease;
+    -ms-transition:     0.2s ease;
+    -o-transition:      0.2s ease;
+}
+/*Its a box.*/
+.containter{
+    width: 100%;
+}
+
+ul.todo{
+    width:100%;
+    float:left;
+}
+/*list item style */
+ul.todo li{
+    width:100%;
+    height: 50px;
+    float:left;
+    font-size: 14px;
+    font-weight: 500;
+    color:#444;
+    line-height: 22px;
+    position: relative;
+    padding: 0 100px 0 0;
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 50px;
+    margin: 0 0 10px 0;
+    padding:14px 100px 14px 14px;
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.80);
+}
+
+ul.todo li:last-of-type{
+    margin:0;
+}
+
+ ul.todo li .buttons{
+     position: fixed;
+    width:100px;
+    height: 50px;
+    top:140px;
+    right:0;
+}
+/*button styleing */
+ul.todo li .buttons button {
+    width:50px;
+    height:50px;
+    float:left;
+    cursor: pointer;
+    background:none;
+    border-radius: 50%;
+    outline: none;
+    position: relative;
+    box-shadow: none;
+
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+}
+
+ul.todo li .buttons button:last-of-type:before {
+    content: '';
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    top:10px;
+    background-color: #edf0f1;
+}
+/*this controls the svg styles*/
+ul.todo li .buttons button svg{
+    width:44px;
+    height:44px;
+    position: relative;
+    top: 50%;
+    right: 5px;
+    margin: 11px 0 0 -11;
+
+}
+/*button effects */
+ul.todo li .buttons button.remove:hover{
+    background-color:#dcdee2;
+    border-radius: 50%;
+}
+
+ul.todo li .buttons button.remove svg:hover{
+    transition: 0.2s ease;
+    opacity: 0.70;
+
+    -webkit-transition: 0.2s ease;
+    -moz-transition:    0.2s ease;
+    -ms-transition:     0.2s ease;
+    -o-transition:      0.2s ease;
+
+}
+
+ul.todo li .buttons button.complete:hover{
+    border-radius: 50%;
+    transition: 0.2s ease;
+    background-color:#4ed330;
+    -webkit-transition: 0.2s ease;
+    -moz-transition:    0.2s ease;
+    -ms-transition:     0.2s ease;
+    -o-transition:      0.2s ease;
+
+}
+
+ul.todo li .buttons button.complete svg:hover{
+    transition: 0.2s ease;
+    opacity: 0.70;
+
+    -webkit-transition: 0.2s ease;
+    -moz-transition:    0.2s ease;
+    -ms-transition:     0.2s ease;
+    -o-transition:      0.2s ease;
+
+}
+/*moe button effects */
+ul.todo#compeleted li .buttons button.complete svg{
+    border-radius: 50%;
+    transition:  0.2s ease;
+    background-color:#4ed330;
+
+
+    -webkit-transition: 0.2s ease;
+    -moz-transition:    0.2s ease;
+    -ms-transition:     0.2s ease;
+    -o-transition:      0.2s ease;
+
+}

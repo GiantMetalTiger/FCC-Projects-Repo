@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wiki@home</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="sbox"> 
+            <form>
+            <input id="Search" type="search" placeholder="Search Wikipedia">
+            <input id="SubBtn"type="submit">
+        </form>
+            <button class="btn btn-primary" id="shoFrame">more</button>
+            <button class="btn btn-primary" id="shoRandom">RandomPage</button>
+            <button class="btn btn-primary" id="hideAll">HideAll</button>
+        </div>
+        <div><iframe width="640" height="480" class="wikiCont" src=""></iframe></div>
+        <div><iframe width="640" height="480" class="RwikiCont" src=""></iframe></div>
+    </div>
+    <div class="info">
+    <div class="wikiTitle"></div>
+    <div class="wikiLink"></div>
+    </div>
+    <script  src="wikiview.js"></script>
+</body>
+</html>

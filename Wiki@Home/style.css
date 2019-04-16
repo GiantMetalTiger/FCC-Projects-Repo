@@ -1,0 +1,15 @@
+*{
+    background-color: #313256;
+}
+.container{
+    left:5%;
+    width:100%;
+    position: relative;
+}
+.wikiTitle{
+    font-size: 20px;
+    font-style:bold;
+    color: #ffffff;
+}
+.info{
+}

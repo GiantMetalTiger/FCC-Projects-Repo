@@ -1,0 +1,64 @@
+*{
+    background-color: #313256;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    top:30%;
+    left: 10%;
+    width:40%;
+    height:30%;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 44px;
+    position: absolute;
+}
+.icon{
+    left: 40%;
+    width:80%;
+    height: 80%;
+    position: relative;
+}
+.wicon{
+    width:auto;
+    height:auto;
+    position: relative;
+}
+#local{
+    left:40%;
+    color:white;
+    position: relative;
+}
+.city{
+    left:40%;
+    color:white;
+    position: relative;
+}
+.weather{
+    left: 40%;
+    color:white;
+    position: relative;
+}
+.temp{
+    left: 40%;
+    color:white;
+    position: relative;
+}
+.buttons{
+    width:50%;
+    height:30%;
+    left: 40%;
+    position: relative;
+}
+#fh{
+    left: 40%;
+    color:white;
+   
+}
+#clc{
+    left: 40%;
+    color:white;
+}
