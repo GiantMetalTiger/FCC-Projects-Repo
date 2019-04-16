@@ -1,2 +1,2 @@
-# FCC-Weather
-Repo for free code camp's weather front end project
+# FCC-Project Repo
+Repo for free code camp Web Projects
